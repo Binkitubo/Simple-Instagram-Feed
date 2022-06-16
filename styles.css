@@ -1,0 +1,60 @@
+
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+.cuerpo {
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.titulo {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    right: 100px;
+}
+
+.post {
+    width: 600px;
+    height: 500px;
+    margin: 0 auto 50px;
+    background-color: white;
+}
+
+.box-titulo {
+    height: 50px;
+    display: flex;
+    border-bottom: rgb(179, 179, 179) 1px solid;
+}
+
+.titulo-post {
+    font-weight: bold;
+    padding-left: 10px;
+    width: 95%;
+}
+
+.fecha {
+    color: rgb(160, 160, 160);
+    padding-right: 20px;
+    width: 5%;
+}
+
+.foto {
+    height: 75%;
+}
+
+img {
+    width: 600px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.comentario {
+    padding: 0 15px 0 15px;
+    border-top: rgb(179, 179, 179) 1px solid;
+}
